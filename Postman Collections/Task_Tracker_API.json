@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "dc1aa129-cc52-4eb9-acf4-e39cc3236cd2",
+		"name": "Task Tracker API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET All Tasks",
+			"id": "86ff7502-97ff-4748-b397-b0a913c43457",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{baseURL}}/tasks"
+			},
+			"response": []
+		},
+		{
+			"name": "TestRequest",
+			"id": "24925134-cbf9-41ae-bcfa-1ba4fecceadf",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": ""
+			},
+			"response": []
+		}
+	]
+}

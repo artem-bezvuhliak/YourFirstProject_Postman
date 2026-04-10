@@ -7,10 +7,7 @@
 	"item": [
 		{
 			"name": "GET All Tasks",
-			"id": "86ff7502-97ff-4748-b397-b0a913c43457",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
+			"id": "c1e9bd4a-f6c7-448a-af07-1a082aa7d8db",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -20,14 +17,21 @@
 		},
 		{
 			"name": "TestRequest",
-			"id": "24925134-cbf9-41ae-bcfa-1ba4fecceadf",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
+			"id": "b8ae4ac0-8653-4575-82c3-b39edf2421c8",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": ""
+			},
+			"response": []
+		},
+		{
+			"name": "justaurl",
+			"id": "4521b8eb-b354-423a-a4cb-962c93bac6c8",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "justaurl"
 			},
 			"response": []
 		}

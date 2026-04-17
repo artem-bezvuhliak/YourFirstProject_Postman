@@ -13,7 +13,24 @@
 				"header": [],
 				"url": "{{baseURL}}/tasks"
 			},
-			"response": []
+			"response": [
+				{
+					"id": "d6eb0d51-ee09-45f3-b862-89fa70a7e379",
+					"name": "200 OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": "{{baseURL}}/tasks"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"responseTime": null,
+					"body": "[\n  {\n    \"id\": 1,\n    \"title\": \"Update Jira tickets\",\n    \"completed\": false\n  }\n]\n    "
+				}
+			]
 		}
 	]
 }

@@ -70,11 +70,19 @@
 						},
 						"url": "{{baseURL}}/tasks"
 					},
-					"_postman_previewlanguage": null,
-					"header": null,
-					"cookie": [],
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "",
+					"header": [],
+					"cookie": [
+						{
+							"expires": "Invalid Date",
+							"domain": "",
+							"path": ""
+						}
+					],
 					"responseTime": null,
-					"body": null
+					"body": ""
 				}
 			]
 		},
@@ -113,7 +121,54 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"id": "849242a6-332a-468c-b2af-03183c53c8ad",
+					"name": "PUT Update Task",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id\": 2,\n  \"title\": \"New Task\",\n  \"completed\": false\n}\n    ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/tasks/:id",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"tasks",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [],
+					"cookie": [
+						{
+							"expires": "Invalid Date",
+							"domain": "",
+							"path": ""
+						}
+					],
+					"responseTime": null,
+					"body": ""
+				}
+			]
 		},
 		{
 			"name": "DELETE - Remove a task",

@@ -14,26 +14,6 @@
 				"url": "{{baseURL}}/tasks"
 			},
 			"response": []
-		},
-		{
-			"name": "TestRequest",
-			"id": "b8ae4ac0-8653-4575-82c3-b39edf2421c8",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": ""
-			},
-			"response": []
-		},
-		{
-			"name": "justaurl",
-			"id": "4521b8eb-b354-423a-a4cb-962c93bac6c8",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": "justaurl"
-			},
-			"response": []
 		}
 	]
 }

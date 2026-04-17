@@ -43,7 +43,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "[\n{\n    \"title\": \"Update Jira tickets\",\n    \"completed\": false\n}\n]",
+					"raw": "{\n    \"title\": \"Update Jira tickets\",\n    \"completed\": false\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -55,7 +55,7 @@
 			"response": [
 				{
 					"id": "fe3ffed1-4db9-4049-91d0-12e7d7c186a2",
-					"name": "POST New Task",
+					"name": "201 Created",
 					"originalRequest": {
 						"method": "POST",
 						"header": [],
@@ -111,27 +111,12 @@
 						}
 					}
 				},
-				"url": {
-					"raw": "{{baseURL}}/tasks/:id",
-					"host": [
-						"{{baseURL}}"
-					],
-					"path": [
-						"tasks",
-						":id"
-					],
-					"variable": [
-						{
-							"key": "id",
-							"value": ""
-						}
-					]
-				}
+				"url": "{{baseURL}}/tasks/2"
 			},
 			"response": [
 				{
 					"id": "849242a6-332a-468c-b2af-03183c53c8ad",
-					"name": "PUT Update Task",
+					"name": "200 OK",
 					"originalRequest": {
 						"method": "PUT",
 						"header": [],
@@ -213,7 +198,7 @@
 			"response": [
 				{
 					"id": "06192abe-d800-41f9-9fe0-4d83f87afc99",
-					"name": "DELETE - Remove a task",
+					"name": "204 No Content",
 					"originalRequest": {
 						"method": "DELETE",
 						"header": [],

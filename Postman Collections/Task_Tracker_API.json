@@ -31,6 +31,18 @@
 					"body": "[\n  {\n    \"id\": 1,\n    \"title\": \"Update Jira tickets\",\n    \"completed\": false\n  }\n]\n    "
 				}
 			]
+		},
+		{
+			"name": "POST New Task",
+			"id": "d49a0079-4744-4995-9b17-3c80d8dfcdb7",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }

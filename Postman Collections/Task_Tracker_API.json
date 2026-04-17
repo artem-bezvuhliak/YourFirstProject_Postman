@@ -72,8 +72,15 @@
 					},
 					"status": "Created",
 					"code": 201,
-					"_postman_previewlanguage": "",
-					"header": [],
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": "",
+							"type": "text"
+						}
+					],
 					"cookie": [
 						{
 							"expires": "Invalid Date",
@@ -82,7 +89,7 @@
 						}
 					],
 					"responseTime": null,
-					"body": ""
+					"body": "{\n  \"id\": 2,\n  \"title\": \"New Task\",\n  \"completed\": false\n}"
 				}
 			]
 		},
@@ -130,7 +137,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n  \"id\": 2,\n  \"title\": \"New Task\",\n  \"completed\": false\n}\n    ",
+							"raw": "{\n  \"title\": \"Updated Task\",\n  \"completed\": true\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -156,8 +163,15 @@
 					},
 					"status": "OK",
 					"code": 200,
-					"_postman_previewlanguage": "",
-					"header": [],
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": "",
+							"type": "text"
+						}
+					],
 					"cookie": [
 						{
 							"expires": "Invalid Date",
@@ -166,7 +180,7 @@
 						}
 					],
 					"responseTime": null,
-					"body": ""
+					"body": "{\n  \"id\": 1,\n  \"title\": \"Updated Task\",\n  \"completed\": true\n}"
 				}
 			]
 		},

@@ -2,6 +2,7 @@
 	"info": {
 		"_postman_id": "dc1aa129-cc52-4eb9-acf4-e39cc3236cd2",
 		"name": "Task Tracker API",
+		"description": "## Task Tracker API\n\nThis collection provides a complete set of RESTful endpoints for managing tasks in a task tracking application. It covers the full CRUD lifecycle — allowing you to retrieve, create, update, and delete tasks.\n\n### Endpoints\n\n| Method | Endpoint | Description |\n|--------|----------|-------------|\n| GET | `/tasks` | Retrieve a list of all tasks |\n| POST | `/tasks` | Create a new task |\n| PUT | `/tasks/1` | Update an existing task by ID |\n| DELETE | `/tasks/:id` | Remove a task by ID |\n\n### Getting Started\n\nAll requests use the `{{baseURL}}` variable to define the base URL of the API. Make sure the active environment has `baseURL` configured before sending requests.",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [

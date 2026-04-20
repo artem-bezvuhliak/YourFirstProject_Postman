@@ -7,6 +7,22 @@
 	"item": [
 		{
 			"name": "GET All Tasks",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "ad85e81d-7e00-4cb1-a750-28ed54eb07ae",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"  pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
 			"id": "c1e9bd4a-f6c7-448a-af07-1a082aa7d8db",
 			"request": {
 				"method": "GET",
@@ -34,6 +50,22 @@
 		},
 		{
 			"name": "POST New Task",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "7bfb5260-e0d7-43eb-b39e-77205fb3344b",
+						"exec": [
+							"pm.test(\"Status code is 201\", function () {",
+							"  pm.response.to.have.status(201);",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
 			"id": "d49a0079-4744-4995-9b17-3c80d8dfcdb7",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -95,6 +127,22 @@
 		},
 		{
 			"name": "PUT Update Task",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b37170d0-bd4d-4e3f-8a56-00eb7f87cb03",
+						"exec": [
+							"pm.test(\"Status code is \", function () {",
+							"  pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
 			"id": "42fccb3d-7969-4b87-bc5d-e897f52338e8",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -111,7 +159,7 @@
 						}
 					}
 				},
-				"url": "{{baseURL}}/tasks/2"
+				"url": "{{baseURL}}/tasks/1"
 			},
 			"response": [
 				{
@@ -171,6 +219,22 @@
 		},
 		{
 			"name": "DELETE - Remove a task",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "f0e19723-437d-4049-8a8a-5e3efebcfeab",
+						"exec": [
+							"pm.test(\"Status code is \", function () {",
+							"  pm.response.to.have.status(204);",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
 			"id": "8827203f-19dc-4c4f-9177-4c4637695d69",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
